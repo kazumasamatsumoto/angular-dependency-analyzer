@@ -1,0 +1,12 @@
+[package]
+name = "angular-dependency-analyzer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+walkdir = "2.3"
+swc_common        = "10.0.0"
+swc_ecma_parser   = "13.0.0"
+swc_ecma_ast      = "10.0.0"
+swc_ecma_visit    = "10.0.0"
+anyhow = "1.0"
